@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #eeefbe;
+  background-color: #f1f1f1;
   font-family: Arial, sans-serif;
   min-height: 100vh;
   display: flex;
@@ -63,9 +63,11 @@ main {
 }
 
 .partner h2 {
-  color: white;
-  font-size: 1.8rem;
-  margin-top: 1rem;
+  font-family: "Pacifico", cursive;
+  color: #ecbf3b; /* Gold */
+  font-size: 2.5rem;
+  text-shadow: 3px 3px 0 #000, 2px 2px 0 #000, 1px 1px 0 #000;
+  margin: 1.5rem 0;
 }
 
 /* Navigation buttons */
@@ -127,4 +129,12 @@ main {
     padding: 12px;
     font-size: 20px;
   }
+}
+
+.bazaar-heading {
+  font-family: "Pacifico", cursive;
+  color: #ecbf3b; /* Gold */
+  font-size: 2.5rem;
+  text-shadow: 3px 3px 0 #000, 2px 2px 0 #000, 1px 1px 0 #000;
+  margin: 1.5rem 0;
 }
